@@ -1,0 +1,110 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #0e1824;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.profile-name {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.profile-description {
+  font-style: italic;
+}
+
+main {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section-text {
+  margin: 0;
+}
+
+.assignment {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.assignment h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #0e1824;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background-color 0.43s ease;
+  text-align: center;
+  align-content: center;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.assignment-content {
+  margin-top: 10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.assignment-content.hidden {
+  max-height: 0;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px; /* Adjust width as needed */
+  text-align: center;
+}
+
+.card .section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card .section-text {
+  font-size: 16px;
+  color: #666;
+}

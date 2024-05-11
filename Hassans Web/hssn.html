@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Salisu</title>
+    <link rel="stylesheet" href="hssn.css">
+</head>
+<body>
+    <header>
+       
+        <h1 class="profile-name">Hassan Salisu</h1>
+        <p class="profile-description">400 LVL</p>
+    </header>
+    <main>
+        <section class="card">
+            <h2 class="section-title">MATRICULATION No.</h2>
+            <p class="section-text"> 1911402021</p>
+        </section>
+        <section class="card">
+            <h2 class="section-title">Department</h2>
+            <p class="section-text">Electrical Engineering</p>
+        </section>
+        <section class="card">
+            <h2 class="section-title">University</h2>
+            <p class="section-text">Dan Fodio University Sokoto</p>
+        </section>
+        <section>
+         <br>
+          <button id="toggleButton" class="toggle-button">Assignments</button>
+          <div id="assignmentContent" class="assignment-content">
+              <div class="assignment">
+                  <h3>ASSIGNMENT 1</h3>
+                  <p>
+                    program newtons_law<br>
+                  implicit none<br><br>
+                  
+                  ! Declare variables<br>
+                  real :: force, mass, acceleration<br><br>
+                  
+                  ! Prompt user for mass and acceleration
+                  print*, "Enter the mass of the object (in kg): "
+                  read*, mass
+                  print*, "Enter the acceleration of the object (in m/s^2): "
+                  read*, acceleration<br><br>
+                  
+                  ! Calculate force using Newton's second law<br><br>
+                  force = mass * acceleration<br><br>
+                  
+                  ! Display the result<br><br>
+                  print*, "The force acting on the object is ", force, " Newtons."<br>
+                  
+                  end program newtons_law<br>
+                  
+                  </p>
+              </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+       
+    </footer>
+    <script>
+      const toggleButton = document.getElementById('toggleButton');
+      const assignmentContent = document.getElementById('assignmentContent');
+
+      toggleButton.addEventListener('click', function() {
+          assignmentContent.classList.toggle('hidden');
+      });
+  </script>
+</body>
+</html>
